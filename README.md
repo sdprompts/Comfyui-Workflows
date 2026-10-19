@@ -58,3 +58,18 @@ Viggle text to image: [workflow_qwen21_viggle_t2i.json](Qwen%202.1/workflow_qwen
 Viggle edit: [workflow_qwen21_viggle_edit.json](Qwen%202.1/workflow_qwen21_viggle_edit.json)
 
 - Same files as the Viggle text-to-image workflow.
+
+## Image title and tags
+
+[workflow_image_title_tags.json](Image%20Tags/workflow_image_title_tags.json)
+
+- [qwen3vl_4b_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen3-VL/blob/main/text_encoders/qwen3vl_4b_bf16.safetensors)
+- [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) for the Show Text node
+
+Folder captions: [workflow_image_folder_captions.json](Image%20Tags/workflow_image_folder_captions.json)
+
+Type any folder path. A `.txt` file is written beside each image, using the image name.
+
+- [qwen3vl_4b_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen3-VL/blob/main/text_encoders/qwen3vl_4b_bf16.safetensors)
+- [caption_folder.py](Image%20Tags/caption_folder.py) — copy into `ComfyUI/custom_nodes/` and restart
+- [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) for the Show Text node
