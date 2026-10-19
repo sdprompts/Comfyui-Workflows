@@ -10,6 +10,13 @@ Beginner workflows. Drag a JSON file onto the canvas.
 - [qwen3.5_9b_w4a8_gptq.safetensors](https://huggingface.co/Comfy-Org/MOSS-Image/blob/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors)
 - [flux2-vae_small.safetensors](https://huggingface.co/Comfy-Org/MOSS-Image/blob/main/vae/flux2-vae_small.safetensors)
 
+Base with turbo LoRA: [workflow_moss_image_base_turbo.json](MOSS%20Image/workflow_moss_image_base_turbo.json)
+
+- [moss_image_base_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/MOSS-Image/blob/main/diffusion_models/moss_image_base_int8_convrot.safetensors)
+- [lora.safetensors](https://huggingface.co/lodestones/MOSS-Image-Base-8-steps-dmd/blob/main/lora.safetensors)
+- [qwen3.5_9b_w4a8_gptq.safetensors](https://huggingface.co/Comfy-Org/MOSS-Image/blob/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors)
+- [flux2-vae_small.safetensors](https://huggingface.co/Comfy-Org/MOSS-Image/blob/main/vae/flux2-vae_small.safetensors)
+
 ## Krea 2
 
 [workflow_krea2_raw_turbo.json](Krea%202/workflow_krea2_raw_turbo.json)
