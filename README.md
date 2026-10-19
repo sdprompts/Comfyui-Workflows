@@ -9,5 +9,3 @@ The Viggle Qwen graphs are the exception: copy `viggle_turbo.py` into `ComfyUI/c
 - **MOSS Image** — text to image
 - **Krea 2** — Raw model with the turbo LoRA at 0.6 and the Wan 2.1 VAE
 - **Qwen 2.1** — text to image and image edit, plus int8 turbo and Viggle turbo versions
-
-Text-to-image graphs share one prompt. Edit graphs use “Change the color of the car to bright red” and keep the source image size. A negative prompt is included only when CFG is above 1.
